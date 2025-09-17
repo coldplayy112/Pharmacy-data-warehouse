@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProyekDWLAB</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>GDlDhxM7LXv+Qb4RvvrlLwPaFM0=07/01/2023 13:57:4507/01/2023 13:57:45</TimeStamp>
+        <ID>
+          <String>OLAP Bitter Pill Pharmacy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>qNnBOeW+Fuf11be2IZNIskk89Ew=07/01/2023 13:58:1307/01/2023 13:58:13</TimeStamp>
+        <ID>
+          <String>OLAP Bitter Pill Pharmacy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>W3X4teuPQe8/UuYNpMMUJGET3VA=07/01/2023 14:04:4007/01/2023 14:03:40</TimeStamp>
+        <ID>
+          <String>Customer Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WcJIP9vwfSqS2E7CdqjeVeEBMk8=07/01/2023 14:04:4007/01/2023 14:03:40</TimeStamp>
+        <ID>
+          <String>Doctor Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hPid/VIV6aVEdeMzlQoUjcG8ueg=07/01/2023 14:04:4007/01/2023 14:03:40</TimeStamp>
+        <ID>
+          <String>Time Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1si2BOyxL3zkNEZLiyde8M7LknA=07/01/2023 14:10:1207/01/2023 14:09:38</TimeStamp>
+        <ID>
+          <String>Employee Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YctL53zBxRew67gbNRvebKpVez4=07/01/2023 14:10:1207/01/2023 14:09:38</TimeStamp>
+        <ID>
+          <String>Equipment Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KmjVaKw5rtsaed5praanQArfL1g=07/01/2023 14:14:3207/01/2023 14:12:58</TimeStamp>
+        <ID>
+          <String>Supplier Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lUsDMp2zRVnMysmeidn3xkfz8ho=07/01/2023 14:14:3207/01/2023 14:12:58</TimeStamp>
+        <ID>
+          <String>Branch Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>H30JjjQL1uZMPsdweNXvwkH8Kh8=07/01/2023 14:14:3207/01/2023 14:12:58</TimeStamp>
+        <ID>
+          <String>Medicine Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>fPoKDSm7tpckPhhQtnC9sFn/gdI=07/01/2023 14:04:4007/01/2023 14:03:40Z3tZOyiQGE/lo9arIn8HopdfMjw=07/01/2023 14:03:4007/01/2023 14:03:40</TimeStamp>
+        <ID>
+          <String>ConsultationFact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ymgZOY18BHZQo9qqEw9rGCYTEpk=07/01/2023 14:10:1207/01/2023 14:09:38BrSeHXlaxWJx32DryULuqOyoAKI=07/01/2023 14:09:3807/01/2023 14:09:38</TimeStamp>
+        <ID>
+          <String>EqupmentSalesFact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>JKFwkKbpBMCIuhXsRjpL7kN4fAc=07/01/2023 14:14:3207/01/2023 14:12:58/p6R0whc1pxGVMadud/X3EMjAzM=07/01/2023 14:12:5807/01/2023 14:12:58</TimeStamp>
+        <ID>
+          <String>MedicinePurchaseFact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>E+5bVdSxT5+LFmVwcwVg2gLj0Fw=07/01/2023 14:20:0307/01/2023 14:20:03hpuUsaJymG85WqpLagSEek6yKg4=07/01/2023 14:20:0307/01/2023 14:20:03</TimeStamp>
+        <ID>
+          <String>MedicineSalesFact</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>y0YM1H+k3kLG409hSIABtBoaXk8=07/01/2023 13:52:5007/01/2023 13:52:50</TimeStamp>
+      <ID>
+        <String>ProyekDWLAB</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-01-07T07:21:31.23Z</LastDeployed>
+</DeploymentSnapshot>
